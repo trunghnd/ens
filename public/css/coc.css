@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  border: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.69em;
+}
+
+.wrapper {
+  border: 0.1em black solid;
+  margin: 2em 2em 0 2em;
+}
+
+.section {
+  border-bottom: 0.1em black solid;
+}
+
+.section:last-child {
+  border-bottom: none;
+}
+
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.container {
+  margin: 0 2em;
+  padding: 0.5em 0;
+}
+
+h1 {
+  font-size: 1em;
+}
+
+.highlight {
+  background-color: #d4ebf2;
+}
+
+.solid-background {
+  background-color: #FFF;
+}
+
+.check-box-image, .blank-check-box-image {
+  height: 1em;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.percent6 {
+  width: 6%;
+}
+
+.percent10 {
+  width: 10%;
+}
+
+.percent15 {
+  width: 15%;
+}
+
+.percent20 {
+  width: 20%;
+}
+
+.percent25 {
+  width: 25%;
+}
+
+.percent30 {
+  width: 30%;
+}
+
+.percent35 {
+  width: 35%;
+}
+
+.percent40 {
+  width: 40%;
+}
+
+.percent50 {
+  width: 50%;
+}
+
+.percent50-fix {
+  max-width: 50%;
+}
+
+.percent60 {
+  width: 60%;
+}
+
+.percent70 {
+  width: 70%;
+}
+
+.percent75 {
+  width: 75%;
+}
+
+.percent80 {
+  width: 80%;
+}
+
+.percent90 {
+  width: 90%;
+}
+
+.width12 {
+  width: 12em;
+}
+
+.adjust-margin {
+  margin-left: 0.5em;
+}
+
+.height1em {
+  height: 1em;
+}
+
+.width-left-results {
+  width: 13em;
+}
+
+.width-work-description {
+  width: 25em;
+  padding-left: 0.5em;
+}
+
+.width-results {
+  width: 38em;
+  padding-left: 1em;
+}
+
+.one-line {
+  border-bottom: thin white solid;
+}
+
+.one-line > div {
+  padding: 0.1em 0.5em;
+  float: left;
+  min-height: 1em;
+}
+
+.one-line:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+.one-line-no-float {
+  border-bottom: thin white solid;
+}
+
+.one-line-no-float > div {
+  padding: 0.1em 0.5em;
+  min-height: 1em;
+}
+
+.mask {
+  position: relative;
+}
+
+.mask:before {
+  position: absolute;
+  content: '';
+  display: block;
+  height: 0.2em;
+  background-color: white;
+  width: 100%;
+  top: 1.4em;
+  z-index: 100;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.font-small {
+  font-size: 0.8em;
+}
+
+/* section 1 */
+.section1 .header .logos {
+  vertical-align: middle;
+  width: 17em;
+}
+
+.section1 .header .logos .rcm {
+  width: 6em;
+}
+
+.section1 .header .logos .logo {
+  padding-top: 0.5em;
+  width: 10em;
+}
+
+.section1 .header .title h1 {
+  text-align: center;
+}
+
+.section3 .work-description > div {
+  min-height: 1em;
+}
+
+.section3 .work-description > div:nth-child(2) {
+  padding: 0.1em 0.5em;
+  margin-top: 0.1em;
+  height: 8em;
+  width: 100%;
+}
+
+.section3 .results {
+  border-collapse: collapse;
+  margin-left: 1em;
+  border: 1px solid;
+}
+
+.section3 .results td {
+  border: 1px solid;
+  padding: 0.1em 1em;
+}
+
+.section3 .signature > div {
+  border: thin black solid;
+  height: 5em;
+}
+
+.section3 .signature-image {
+  height: 4.5em;
+  position: relative;
+  top: 0.1em;
+}
+
+.section3 .date {
+  margin-top: 3em;
+}
+
+.section3 .date span {
+  display: inline-block;
+  padding: 0.1em 0.5em;
+  position: relative;
+  top: 0.4em;
+  left: 0.5em;
+}
+
+.section3 .description-results {
+  border-collapse: collapse;
+}
+
+.section4 .signature > div {
+  border: thin black solid;
+  height: 5em;
+  text-align: center;
+}
+
+.section4 .signature .signature-image {
+  height: 4.5em;
+  position: relative;
+  top: 0.1em;
+}
+
+.section4 .name span {
+  padding: 0.1em 0.5em;
+  position: relative;
+  display: inline-block;
+  width: 10em;
+  height: 1.2em;
+  top: 0.4em;
+  left: 0.5em;
+}
+
+.section4 .registration-details > div > div:nth-child(2) {
+  padding: 0.1em 0.5em;
+  height: 1.2em;
+}
+/*# sourceMappingURL=coc.css.map */
